@@ -99,8 +99,8 @@ sess.run(init)
 a = data['pixels'].loc[1][1]
 df = pd.DataFrame()
 
-#for epoch in range(training_epoch):
- #   sess.run(training_step, {x: train_x, y_: label})
+for epoch in range(training_epoch):
+    sess.run(training_step, {x: train_x, y_: label})
 
 
 
